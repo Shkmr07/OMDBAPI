@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Search App with OMDB API</title>
+</head>
+<style>
+    #main{
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    #getMovie{
+
+        width: 80%;
+        margin: auto;
+        padding: 20px;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    }
+
+</style>
+<body>
+    <div id="main">
+        <label for="movielist" style="text-decoration: underline;">Movie Name</label>
+        <input type="text" id="movielist" placeholder="Enter movie name">
+        <button id="Search">Search</button>
+    </div>
+    <br>
+    
+    <div id="getMovie"></div>
+    <script src="./index.js"></script>
+</body>
+</html>
